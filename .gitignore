@@ -1,0 +1,29 @@
+# Python / Environment
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# Jupyter / IDE
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Large Cache & Data
+demo/_tmp/
+demo/cache/
+*.zip
+*.tar.gz
+
+# Exclude LaTeX Report files (as requested)
+report/
+report_vi/
+report.zip
+report_vi.zip
+*.aux
+*.log
+*.out
+*.toc

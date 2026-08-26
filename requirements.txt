@@ -1,0 +1,24 @@
+# Core
+numpy>=1.23
+scipy>=1.10
+torch>=2.0          # Cài bản cho CUDA của bạn từ pytorch.org
+
+# Mesh processing
+trimesh>=4.0
+potpourri3d>=0.0.8
+robust_laplacian>=0.2.4
+pymeshlab>=2023.12  # tùy chọn — cho remesh/denoise
+
+# Visualization
+plotly>=5.0
+matplotlib>=3.7
+polyscope>=2.0      # tùy chọn — viewer 3D ngon hơn matplotlib
+
+# Notebook
+jupyter
+ipykernel
+
+# Training utilities
+tqdm
+tensorboard         # log training
+scikit-learn        # tính metrics: precision, recall, f1, IoU
